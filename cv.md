@@ -98,6 +98,7 @@ I don't have any commercial expeience.
       - Ajax
       - MVC
       - Canvas
+      - SVG
   - Glo-Academy online-course [проект](http://fe.it-academy.by/Sites/0030999/Portfolio/index.html) [сылка на Git](https://github.com/skibyks/-Tunes_project)
     - Stack :
       - HTML
