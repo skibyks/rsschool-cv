@@ -32,7 +32,8 @@
         width: 300px;
         height: 300px;
       }
-      .contact {
+      .contact,
+      .git {
         text-decoration: none;
         color: black;
       }
@@ -51,7 +52,8 @@
         margin-top: 20px;
       }
       section,
-      header {
+      header,
+      footer {
         padding-top: 20px;
         padding-bottom: 20px;
         max-width: 1200px;
@@ -60,6 +62,18 @@
       pre {
         background: #f6f8fa;
         padding-left: 20px;
+      }
+      footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .git {
+        font-size: 40px;
+      }
+      nav {
+        display: flex;
+        justify-content: flex-end;
       }
     </style>
 
@@ -92,7 +106,9 @@
           </li>
         </ul>
       </div>
-      <img src="../rsschool-cv/img/avatar.jpg" alt="my avatar" />
+      <figure>
+        <img src="../rsschool-cv/img/avatar.jpg" alt="my avatar" />
+      </figure>
     </header>
     <section>
       <div class="about_me">
@@ -304,6 +320,18 @@ musicPlayerInit();
           </li>
         </ul>
       </div>
+      <nav>
+        <a href="#">go to start</a>
+      </nav>
     </section>
+    <footer>
+      <img src="https://rs.school/images/rs_school_js.svg" alt="rs_school" />
+      <a
+        class="git"
+        href="https://github.com/skibyks/rsschool-cv"
+        target="_blank"
+        >GitHub year of creation 2020
+      </a>
+    </footer>
   </body>
 </html>
