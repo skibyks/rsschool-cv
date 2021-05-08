@@ -1,0 +1,32 @@
+* {
+  list-style-type: none;
+}
+section {
+  background-color: #ffff;
+  height: 100vh;
+}
+
+.table th {
+  background: none;
+}
+.table th:nth-child(2) {
+  font-weight: normal;
+}
+tr > td:nth-child(1) {
+  font-weight: bold;
+}
+tr:nth-child(even) > td:nth-child(1),
+tr > th:nth-child(1),
+tr:nth-child(odd) > td:nth-child(2) {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+tr:nth-child(odd) > td:nth-child(1) {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+.license {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+.la-pencil,
+.la-plus {
+  color: rgb(223, 71, 89);
+}
